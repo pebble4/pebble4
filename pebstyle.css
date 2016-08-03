@@ -21,6 +21,10 @@
       height: 100%;
     }
     
+    .container {
+    	background: transparent !important;
+    }
+    
     /* Set black background color, white text and some padding */
     footer {
       background-color: #555;
