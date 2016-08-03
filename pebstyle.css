@@ -1,0 +1,87 @@
+
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+	border-radius: 0;
+	  background: white;
+	  
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {
+	height: 450px
+	}
+	
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      <!-- background-color: aquamarine; -->
+	  background:transparent !important;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;}
+    }
+
+
+#nav {
+text-align:center;
+margin-top: 15px;
+font-family: Courier New;
+font-size: 25px
+}
+#nav li {
+display:inline;
+}
+#nav a {
+text-decoration:none; 
+padding:0 30px; /* variable width */
+}
+
+
+#AboutPebble{
+	font-family:Courier New;
+	background: aquamarine;
+}
+
+
+#peblogotalk{
+	color: Yellow;
+	font-family: Courier New;
+	font-size: 18px;
+	font-weight: bold;
+}
+#begin {
+	color: DeepPink;
+	font-weight: 900;
+}
+
+
+#teext{
+	color: black;
+	font-size: 15px;
+	font-family: Courier New ;
+	text-align: left;
+}
+
+
+
+
+
+
+
+
