@@ -77,11 +77,10 @@ padding:0 30px; /* variable width */
 	font-family: Courier New ;
 	text-align: left;
 }
-
-
-
-
-
-
-
-
+.fb-comments-count{
+	background-image: url("newc.png");
+	background-size: 60px;
+	background-repeat: no-repeat;
+	padding: 20px;
+	margin: 5px;
+}
